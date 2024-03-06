@@ -1,0 +1,98 @@
+@font-face {
+  font-family: aesthetic;
+  src: url(font/Aesthetic/AestheticRegular-8M5dM.ttf);
+}
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/madeline-pere-r37QcATSbD4-unsplash.jpg);
+  opacity: 1;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 70%;
+}
+#name {
+  font-family: aesthetic;
+  font-size: 140px;
+  font-weight: bold;
+  margin-top: 0px;
+  color: rgb(255, 239, 239);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  position: ;
+  padding-top: 300px;
+}
+
+#myProject-cont {
+  margin-top: 100px;
+  font-family: aesthetic;
+  color: white;
+  font-size: 40px;
+  padding: 15px 50px;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+#project-cont {
+  width: 400px;
+  height: 320px;
+  background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+#project2-cont {
+  width: 400px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/eyestetix-studio-m0EzHtexapU-unsplash.jpg);
+}
+
+.project {
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  transition: box-shadow 0.3s ease;
+  margin: 50px 100px;
+}
+#project-cont:hover {
+  box-shadow: 0px 0px 50px rgb(234, 0, 255);
+}
+#project2-cont:hover {
+  box-shadow: 0px 0px 50px rgb(43, 255, 0);
+}
+#container-project {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  #name {
+    font-size: 65px;
+  }
+  #myProject-cont {
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+  #project-cont {
+    width: 110px;
+    height: 110px;
+  }
+  #project2-cont {
+    width: 110px;
+    height: 110px;
+  }
+  .project {
+    margin: 10px 20px;
+  }
+
+  #container-project {
+    align-items: center;
+    justify-content: ce;
+  }
+}
